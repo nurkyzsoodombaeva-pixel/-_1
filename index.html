@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>qwerty</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Проверка: только цифры</h1>
+        <input id="input" placeholder="Введите строку" />
+        <button id="checkBtn">Проверить</button>
+        <div id="output" style="margin-top:8px;font-weight:bold"></div>
+
+        <div style="margin-top:16px;">
+            <input type="text" id="loginInput" placeholder="Введите логин" />
+            <button id="checkLoginBtn">Проверить пользователя</button>
+            <div id="userCard" style="margin-top:8px;"></div>
+            <p id="message" style="color:crimson;font-weight:bold;"></p>
+        </div>
+        <div class="stopwatch">
+            <h3>Таймер</h3>
+            <div class="time">
+                <div class="time_block">
+                    <div class="interval" id="seconds">0</div>
+                </div>
+            </div>
+            <div style="margin-top:8px;">
+                <label for="startValue">Начальное значение:</label>
+                <input id="startValue" type="number" value="10" style="width:80px;margin-left:8px;" />
+            </div>
+            <div class="time_buttons">
+                <button class="btn" id="start">Start</button>
+                <button class="btn" id="stop">Stop</button>
+                <button class="btn" id="reset">Reset</button>
+            </div>
+        </div>
+            <div id="box150" class="qwerty" title="Кликни по мне"></div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>

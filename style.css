@@ -1,0 +1,75 @@
+.time {
+    color: rgb(5, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid red;
+    margin-top: 40px;
+}
+
+.time_block {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.stopwatch {
+    padding: 100px 0;
+    background: rgb(255, 254, 254);
+}
+
+.time_buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.qwerty {
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(10, 0, 0);
+
+}
+
+.qwerty.colored {
+    background-color: cornflowerblue;
+}
+
+/* Стили для карточки пользователя (задание 7) */
+.user-card {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 12px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    background: #fafafa;
+    max-width: 420px;
+}
+.user-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #333;
+}
+.user-info {
+    font-size: 14px;
+    color: #222;
+}
+.user-info div { margin-bottom: 6px; }
+
+/* Поля поиска */
+#loginInput { padding: 6px 8px; width: 200px; border: 1px solid #ccc; border-radius: 4px; }
+#checkLoginBtn { padding: 6px 10px; margin-left: 8px; border-radius: 4px; border: 1px solid #888; background: #fff; cursor: pointer; }
+#checkLoginBtn:hover { background: #f0f0f0; }
+#message { margin-top: 8px; }
